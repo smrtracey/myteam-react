@@ -1,0 +1,86 @@
+.about-page-wrapper {
+  background-color: var(--clr-primary-midnight-green);
+  padding-top: 120px;
+  text-align: center;
+  position: relative;
+}
+
+.about-topper {
+  min-height: 60vh;
+  position: relative;
+  overflow: hidden;
+
+  .about-topper-text {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: var(--clr-white);
+  }
+
+  .about-topper-image {
+    position: absolute;
+    bottom: -103px;
+    right: -100px;
+  }
+}
+
+.directors {
+  background-color: var(--clr-secondary-deep-jungle-green);
+  padding-top: 90px;
+  padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+
+  .directors-image {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+  }
+
+  .about-bottom-image {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+  }
+}
+
+.director-cards-wrapper {
+  margin-top: 50px;
+}
+
+// CLIENTS
+
+.about-clients-wrapper {
+  background-color: var(--clr-secondary-dark-green);
+  padding-top: 80px;
+  padding-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.clients-pattern {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+.clients-header {
+  margin-bottom: 50px;
+}
+
+.client-logo-wrapper {
+  width: 90%;
+  margin: 0 auto;
+
+  img {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+}

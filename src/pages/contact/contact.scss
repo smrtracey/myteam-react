@@ -1,0 +1,39 @@
+.contact-page-wrapper {
+  background-color: var(--clr-primary-midnight-green);
+  padding-top: 120px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: var(--clr-white);
+  }
+}
+
+.contact-highlight-span {
+  color: var(--clr-primary-light-coral);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.contact-topper-section {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 30px;
+  p {
+    margin-left: 20px;
+  }
+}
+
+.contact-pattern {
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+}

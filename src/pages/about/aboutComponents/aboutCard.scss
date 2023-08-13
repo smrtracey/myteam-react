@@ -1,0 +1,80 @@
+.about-card {
+  background-color: var(--clr-secondary-sacramento-state-green);
+  width: 90%;
+  margin: 10px auto;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 255px;
+
+  .about-card-avatar {
+    width: 90px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid var(--clr-white);
+    margin-top: 20px;
+  }
+
+  .about-card-name {
+    color: var(--clr-secondary-rapture-blue);
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  .job-position {
+    color: var(--clr-white);
+    font-style: italic;
+    margin: 10px 0;
+  }
+
+  padding-bottom: 60px;
+
+  .plus-button {
+    position: absolute;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    bottom: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--clr-primary-light-coral);
+
+    img {
+      transition: all 500ms;
+
+      transform: rotate(0deg);
+    }
+  }
+
+  .about-card-quote {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+
+  .about-card-socials {
+    margin-top: 30px;
+    img {
+      margin: 0 10px;
+    }
+  }
+
+  .show-quote-button {
+    transition: all 500ms;
+    background-color: var(--clr-secondary-rapture-blue);
+    img {
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.darken-about-card {
+  background-color: var(--clr-secondary-dark-green);
+}

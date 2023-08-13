@@ -1,0 +1,39 @@
+.main-footer {
+  background-color: var(--clr-secondary-dark-green);
+  min-height: 500px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+
+  .footer-main-logo {
+    transform: scale(0.9);
+  }
+}
+
+.footer-nav {
+  width: 50%;
+  margin: 20px auto;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+    cursor: pointer;
+  }
+}
+
+p {
+  line-height: 30px;
+  color: var(--clr-faded-text);
+}
+
+.footer-icons-wrapper {
+  margin: 40px 0 20px 0;
+  transform: scale(1.2);
+  img {
+    margin: 0 10px;
+  }
+}

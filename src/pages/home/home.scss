@@ -1,0 +1,162 @@
+.landing-page-wrapper {
+  height: 100vh;
+  background-color: var(--clr-primary-midnight-green);
+  padding-top: 120px;
+  text-align: center;
+  position: relative;
+}
+
+.landing-text {
+  padding: 0 10px;
+
+  h2 {
+    color: var(--clr-white);
+    padding: 30px 40px;
+  }
+
+  p {
+    color: var(--clr-white);
+  }
+}
+
+.highlight-span {
+  color: var(--clr-primary-light-coral);
+}
+
+.home-image-wrapper {
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+}
+
+// OVERVIEW
+
+.overview-wrapper {
+  background-color: var(--clr-secondary-sacramento-state-green);
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+.overview-topper {
+  width: 100%;
+  padding-top: 80px;
+  position: relative;
+
+  .topper-text {
+    width: 60%;
+    margin-left: 20px;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 50px;
+    height: 4px;
+    // border-radius: 5px;
+    background-color: var(--clr-primary-light-coral);
+  }
+
+  .overview-background-image-wrapper {
+    position: absolute;
+    right: -100px;
+    top: 0;
+  }
+}
+
+.overview-section {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+
+  h3 {
+    margin: 10px 0;
+    color: var(--clr-primary-light-coral);
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 25px;
+    filter: drop-shadow(0 0 4px rgb(0 0 0 / 0.75));
+  }
+}
+
+// TESTIMONIALS
+
+.testimonials-wrapper {
+  background-color: var(--clr-secondary-deep-jungle-green);
+  min-height: 100vh;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 160px;
+
+  h2 {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 140px;
+  }
+
+  .testimonials-top-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .testimonials-bottom-image-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .testimonials-highlight-span {
+    color: var(--clr-secondary-rapture-blue);
+  }
+
+  .testimonials-section {
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+
+    .quote {
+      position: relative;
+      z-index: 10;
+    }
+    .author {
+      color: var(--clr-secondary-rapture-blue);
+      font-size: 1.2rem;
+      margin-top: 30px;
+    }
+    .job-position {
+      margin-top: 10px;
+      font-size: 0.8rem;
+    }
+
+    .avatar-wrapper {
+      border-radius: 50%;
+      overflow: hidden;
+      border: 1px solid white;
+      width: 62px;
+      aspect-ratio: 1;
+      margin: 0 auto;
+      margin-top: 20px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .background-quotes {
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 0;
+    }
+  }
+}

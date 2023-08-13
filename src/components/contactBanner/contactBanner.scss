@@ -1,0 +1,26 @@
+.home-contact-wrapper {
+  background-color: var(--clr-primary-light-coral);
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+
+  .home-contact-header {
+    margin-top: 40px;
+    color: var(--clr-secondary-sacramento-state-green);
+    width: 60%;
+    text-align: center;
+  }
+
+  .home-contact-button {
+    margin-top: 20px;
+  }
+
+  .contact-bottom-image-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+  }
+}
